@@ -30,5 +30,9 @@ JsUser.email = "himanshu@microsoft.com"
 JsUser.greeting = function(){
   console.log("hello Js user");
 }
+JsUser.greetingTwo = function(){
+  console.log(`hello Js user, ${this.name}`);
+}
 
 console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
